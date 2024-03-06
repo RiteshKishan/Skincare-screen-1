@@ -1,0 +1,11 @@
+.menu-content{
+    width: 240px;
+    min-height: calc(100vh - 92px);
+    padding-top: 12px;
+}
+
+@media screen and (max-width: 835px) {
+    .menu-content{
+        display: none;
+    }
+}

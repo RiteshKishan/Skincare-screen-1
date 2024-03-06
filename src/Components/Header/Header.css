@@ -1,0 +1,32 @@
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  padding-left: 28px;
+  padding-right: 40px;
+}
+.header-menu-icon {
+  display: none;
+}
+.header_content {
+  display: flex;
+  justify-content: space-between;
+  gap: 56px;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Cabin", sans-serif;
+  color: #4c4d4f;
+}
+
+@media screen and (max-width: 835px) {
+  .header-menu-icon {
+    display: block;
+  }
+  .header_date {
+    display: none;
+  }
+  .header_time {
+    display: none;
+  }
+}

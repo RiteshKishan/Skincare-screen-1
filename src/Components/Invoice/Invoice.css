@@ -1,0 +1,25 @@
+.invoice{
+    background-color: #fff9f1;
+    padding-top: 32px;
+    padding: 24px;
+    width: 100%;
+}
+.invoice-head{
+    color: #4c4d4f;
+    font-size: 30px;
+    line-height: 51px;
+    display: flex;
+}
+.invoice-subhead{
+    font-size: 20px;
+    line-height: 22px;
+    color: #4C4D4FD9;
+    padding-top: 12px;
+    padding-bottom: 33px;
+    display: flex;
+}
+.invoice-content{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,29 @@
+.menuitem {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 28px;
+  color: #4c4d4f;
+}
+.submenugap {
+  height: 14px;
+}
+.menuitem-itemdeactive {
+  margin-top: 35px;
+  line-height: 21px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.menuItem-submenu {
+  font-size: 14px;
+  padding-left: 18px;
+  line-height: 21px;
+  padding-top: 14px;
+}
+.menuitem-itemactive {
+  margin-top: 35px;
+  line-height: 21px;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #fff9f1;
+}
